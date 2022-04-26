@@ -19,6 +19,7 @@ DucKeyhook is a USB RubberDucky payload that uses PowerShell to log keystrokes. 
 - *p.ps1* will log keystrokes 
 - *l.ps1* will execute *p.ps1* every minue
     - this can be changed to a preferred delay
+- *uninstaller.cmd* uninstalls the payload from the target computer
 
 ## Resources:
 - [YouTube Video](https://www.youtube.com/watch?v=uHIZZYFeVJA)

